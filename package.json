@@ -1,0 +1,42 @@
+{
+  "name": "prettier-filename",
+  "version": "0.0.1",
+  "description": "Plugin which helps in renaming file names with pre defined conventions",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --ignore test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilreddykatta/prettier-filename.git"
+  },
+  "keywords": [
+    "Prettier",
+    "Filename"
+  ],
+  "author": "anraka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anilreddykatta/prettier-filename/issues"
+  },
+  "homepage": "https://github.com/anilreddykatta/prettier-filename#readme",
+  "babel": {
+    "presets": [
+      "stage-0",
+      "es2015"
+    ],
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "jest": "^20.0.4"
+  }
+}
